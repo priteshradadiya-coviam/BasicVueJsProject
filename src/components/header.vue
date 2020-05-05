@@ -39,7 +39,7 @@ nav{
 }
 .router-link-active{
     background: #eee;
-    color: #444;
+    color: (26.67,26.67,26.67);
 }
 
 </style>

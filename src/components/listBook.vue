@@ -1,8 +1,8 @@
 <template>
-    <div id="show-bookdetails">
-        <h1> List Book Details </h1>
+    <div class="show-bookdetails">
+        <h1> List Book Titles </h1>
         <input type="text" placeholder="Search anything you want" v-model="searchvalue" width="100px">
-        <div v-for="book in searchBooks" v-bind:key="book.id" class="single-book">
+        <div v-for="book in searchBooks" v-bind:key="book.id" class="show-bookdetails__single-book">
             <h2 v-rainbow>{{book.title | to-uppercase}}</h2>
         </div>
     </div>
@@ -49,19 +49,17 @@ export default {
 }
 </script>
 
-<style scoped>
-#show-bookdetails{
+<style scoped lang="scss">
+.show-bookdetails{
     max-width: 800px;
     margin: 0 auto;
     background: #504c4c;
     padding: 20px;
-}
-
-.single-book{
+&__single-book{
     padding: 20px;
     margin: 20px 0px;
     box-sizing: content-box;
     background: cadetblue;
-
+}
 }
 </style>
