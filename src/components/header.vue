@@ -3,6 +3,7 @@
         <ul>
             <li><router-link to="/" exact>Books</router-link></li>
             <li><router-link to="/listBookTitle" exact>Book Titles</router-link></li>
+            <li><router-link to="/loginForm" exact> Login Form </router-link></li>
         </ul>
     </nav>
 </template>

@@ -11,13 +11,12 @@
 // import showBookDetails from './components/showBookDetails.vue';
 // import listBook from './components/listBook.vue';
 import header from './components/header.vue';
-
 export default {
   name: 'App',
   components: {
     // 'show-bookdetails':showBookDetails,
     // 'list-book':listBook,
-    'page-header': header
+    'page-header': header,
   }
 }
 </script>
